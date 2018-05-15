@@ -25,11 +25,11 @@ rm ROOT.war
 ```
 Step 4 - If you wish to pre-fill the credentials when logging into the vSphere Client (Flex/H5), go ahead and update WEB-INF/views/unpentry.jsp as outlined in this blog article [here](https://www.virtuallyghetto.com/2015/08/quick-tip-pre-filled-credentials-in-the-vsphere-6-0-web-client.html). If you wish to make the login button active so you do not have to click into the box or hit tab, you will need to comment out $('#submit').prop('disabled',true); on L91 in **resources/js/websso.js**
 
-Step 5 - Copy **[](app.component.css)** to **/root/ROOT/resources/css/** directory
+Step 5 - Copy **[app.component.css](app.component.css)** to **/root/ROOT/resources/css/** directory
 
-Step 6 - Copy **[](login-animation.js)** to **/root/ROOT/resources/js/** directory
+Step 6 - Copy **[login-animation.js](login-animation.js)** to **/root/ROOT/resources/js/** directory
 
-Step 7 - Copy **[](unpentry.jsp)** to **/root/ROOT/WEB-INF/views/** directory
+Step 7 - Copy **[unpentry.jsp](unpentry.jsp)** to **/root/ROOT/WEB-INF/views/** directory
 
 **Note:** If your vCenter Server can **NOT** directly access the internet, you may also need to download the [TweenMax.min.js](https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js) file and store that locally under /resources/js
 
