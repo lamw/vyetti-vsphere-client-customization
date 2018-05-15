@@ -1,6 +1,6 @@
 # vYetti - Animated vSphere Login UI customization
 
-<iframe width="480" height="278" src="https://giphy.com/embed/1AjjoWu8HSbUxWG53n" frameborder="0" class="giphy-embed" allowfullscreen="allowfullscreen"></iframe>
+![Alt Text](vYetti-Demo.gif)
 
 ## Requirements
 
