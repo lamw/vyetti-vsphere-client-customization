@@ -79,8 +79,8 @@ html {
   form input[type='username'], form input[type="text"], form input[type='password'] {
     display: block;
     margin: 0;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     background-color: #f3fafd;
     border: solid 2px #217093;
     border-radius: 4px;
